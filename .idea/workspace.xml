@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e523b537-1b58-4b0a-a416-6aafdf5bc6e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="e523b537-1b58-4b0a-a416-6aafdf5bc6e7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +44,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578219393226</updated>
       <workItem from="1578219394558" duration="3131000" />
-      <workItem from="1578223121372" duration="3124000" />
+      <workItem from="1578223121372" duration="3286000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1578224460544</created>
@@ -83,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578226422011</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Button added">
+      <created>1578226507739</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578226507739</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
