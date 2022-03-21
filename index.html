@@ -1,206 +1,341 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <title>Maksim Rybalkin, Java Software Engineer</title>
+    <title>Maksim Rybalkin</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <style type="text/css">
 
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        body {
+            background: #f0f0f0;
+            margin: 0;
+            padding: 0;
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+            font-family: 'Helvetica Neue', Helvetica, Arial;
+            line-height: 18px;
+            font-size: 12px;
 
-    <!-- FontAwesome JS-->
-    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"
-            integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ"
-            crossorigin="anonymous"></script>
+            color: #222;
+        }
 
-    <!-- Theme CSS -->
-    <link id="theme-style" rel="stylesheet" href="css/devresume.css">
+        h1, h2, h3, h4 {
+            margin: 0 0 15px 0;
+            padding: 0;
+        }
 
+        h1 {
+            font-size: 300%;
+        }
+
+        h2 {
+            font-size: 210%;
+        }
+
+        h3 {
+            font-size: 130%;
+        }
+
+        p {
+            margin: 0 0 10px 0;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0 0 0 10px;
+            list-style-type: square;
+        }
+
+        a {
+            color: #222;
+        }
+
+        /* ________________________________________________________ */
+
+        .clear {
+            clear: both;
+        }
+
+        #main {
+            background: #fff;
+            width: 900px;
+            padding: 35px;
+            margin: 0 auto 15px auto;
+            overflow: hidden;
+
+            box-shadow: 0 0 6px #ccc;
+        }
+
+        #title {
+            line-height: 42px;
+            border-bottom: 3px solid #000;
+            padding-bottom: 30px;
+            margin: 0px 0 30px 0;
+            font-weight: bold;
+        }
+
+        #credit {
+            margin-bottom: 20px;
+            font-size: 11px;
+            color: #999;
+            text-align: center;
+        }
+
+        #credit a {
+            color: #999;
+        }
+
+        p label {
+            font-weight: bold;
+
+            font-size: 110%;
+            margin-right: 10px;
+        }
+
+        p label span.colon {
+            display: inline;
+        }
+
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .item {
+            margin: 0 0 20px 0;
+        }
+
+        /*  _____________________________ */
+        .rtl {
+            direction: rtl;
+        }
+
+        .photo .basic-info .set {
+            float: none !important;
+            width: auto !important;
+        }
+
+        .basic-info .address {
+            width: 40%;
+            float: left;
+        }
+
+        .basic-info .r {
+            float: right;
+            width: 58%;
+            text-align: right;
+        }
+
+        .basic-info label {
+            font-weight: bold;
+        }
+
+        .basic-info label, .basic-info span {
+            display: inline !important;
+        }
+
+        .basic-info p {
+            margin: 0;
+        }
+
+        .section .title {
+            background: #000;
+            float: left;
+            text-transform: uppercase;
+            font-size: 105%;
+            font-weight: bold;
+            word-wrap: break-word;
+            color: #fff;
+            padding: 4px 6px;
+            width: 16%;
+            margin-right: 30px;
+        }
+
+        .section .set {
+            float: left;
+            width: 78%;
+        }
+
+        .section .set h3 {
+            margin: 0;
+        }
+
+        .section span.value {
+            display: block;
+        }
+
+        .section h3 span.l, .section span.r {
+            width: 49%;
+            float: left;
+        }
+
+        .section span.r {
+            float: right;
+            text-align: right;
+        }
+
+        .section-education .school,
+        .section-work .job_title {
+            font-size: 100%;
+            display: block;
+            margin: 5px 0 5px 0;
+        }
+
+        /* ___ photo ___ */
+        #photo {
+            width: 160px;
+            height: 200px;
+            overflow: hidden;
+            float: left;
+            margin-top: 8px;
+            border-radius: 4px;
+        }
+
+        #photo img {
+            width: 100%;
+            height: auto;
+        }
+
+        .header.photo {
+            margin-left: 190px;
+        }
+
+        .header.photo #title {
+            text-align: left;
+        }
+
+        .header.photo .basic-info {
+            float: none;
+            padding: 0;
+        }
+
+        @media screen and (max-width: 950px) {
+            body {
+                background: #fff;
+            }
+
+            #main {
+                box-shadow: none;
+                padding: 0;
+                padding: 5px;
+            }
+        }
+    </style>
 </head>
+<body class="lang-en ">
 
-<body>
+<div id="main">
 
-<div class="main-wrapper">
-    <div class="container px-3 px-lg-5">
-        <article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
+    <div class="basic-info section">
+        <h1 id="title">Maksim Rybalkin<br/></h1>
+    </div>
+    <div class="basic-info section">
+        <h2 class="title">Contact</h2>
+        <div class="set">
 
-            <div class="resume-header">
-                <div class="row align-items-center">
-                    <div class="resume-title col-12 col-md-6 col-lg-8 col-xl-7">
-                        <h2 class="resume-name mb-0 text-uppercase">Maksim Rybalkin</h2>
-                        <div class="resume-tagline mb-4 mb-md-0">Java Software Engineer</div>
-                        <p></p>
-                        <span class="d-none d-lg-inline-block text-muted">+79253486640 (+WhatsApp, Telegram, Viber)</span>
-                        <p></p>
-                        <span class="d-none d-lg-inline-block text-muted">maxrybalkin91@gmail.com</span>
-                        <p></p>
-                        <a class="resume-link" href="https://github.com/MaxRybalkin91">GitHub</a>
-                        <p></p>
-                        <a class="resume-link" href="https://www.linkedin.com/in/maxrybalkin91/">LinkedIn</a>
-
-                    </div><!--//resume-header-->
-            <!-- 				<hr>
-             -->
-            <hr>
-            <div class="resume-body">
-                <div class="row">
-                    <div class="resume-main col-12 col-lg-8 col-xl-8 pr-0 pr-lg-5">
-                        <section class="work-section py-3">
-                            <h3 class="text-uppercase resume-section-heading mb-4">About me</h3>
-                            <div class="item mb-3">
-                                <div class="item-content">
-                                    <p> I started my career as a developer in 2020, February, after graduating from
-                                        online courses. Every day I try to run into new technologies and have fun:)
-                                        I've been inspired of creating REST microservice apps. Have experience on
-                                        working in intercity and international commands
-                                        and developing non-financial solutions for national and international products.
-                                        In my free time I play drums or do different sports.
-                                    </p>
-                                </div>
-                            </div>
+            <p class="address">
+					<span class="value">
+						Moscow<br/>(Citizen of UA, ready for relocation)</span>
+            </p>
+            <div class="r">
+                <p class="email"><label>E-mail<span class="colon">:</span></label> <span class="value"><a
+                        target="_blank" rel="noopener noreferrer" href="mailto:maxrybalkin91@gmail.com">maxrybalkin91@gmail.com</a></span>
+                </p>
+                <p class="website"><label>Website<span class="colon">:</span></label> <span class="value"><a
+                        target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/maxrybalkin91/">https://www.linkedin.com/in/maxrybalkin91/</a></span>
+                </p>
+                <p class="phone"><label>Phone<span class="colon">:</span></label> <span
+                        class="value">+79253486640 (WhatsApp, Viber, Telegram)</span></p>
+            </div>
+            <div class="clear"></div>
+        </div><!-- set //-->
+        <div class="clear"></div>
+    </div><!-- basic-info //-->
 
 
-                            <section class="project-section py-3">
-                                <h3 class="text-uppercase resume-section-heading mb-4">Work Experiences</h3>
-                                <div class="item mb-3">
-                                    <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"></h4>
-                                    <div class="item-content text-muted text-left">
-                                        <p>02.2020 - present</p>
-                                    </div>
-                                    <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"></h4>
-                                    <div class="item-content">
-                                        <p>Java Developer, <a class="theme-link"
-                                                              href="https://rtln.ru">"Right Line"</a>, Moscow</p>
-                                        <p>Developing JAVA Rest backend services for the "Tinkoff" bank as an outstaff
-                                            employee.</p>
-                                        <p>"Tinkoff" is the biggest online bank in Europe, with more than 25000
-                                            employees.
-                                            In 2020 the company earned 160 million $. It has offices of development in
-                                            19 cities of Russia.</p>
-                                        <p>1) 'APPS-IN-APPS' - backend part for buying items, booking living
-                                            places, comparing restaurants, etc., using the mobile app of the 'Tinkoff'
-                                            bank. I've started working on the project from the very beginning.
-                                            The project still has been helping people to do different things using the
-                                            app where they usually
-                                            had been process only different financial operations. I worked with an
-                                            international team (Russia, Belarus, Ukraine,
-                                            Uzbekistan), developed and tested the code, and sometimes my duties included
-                                            deploying and monitoring
-                                            using Jenkins, Kibana, DataGrip</p>
-                                        <p>2) 'SUBSCRIPTIONS' - backend part for subscribing to different
-                                            online services (video/music streaming, insurance, car servicing, increased
-                                            deposit percent, etc.), in
-                                            the mobile app of the bank. After 1 year from publishing the app, we reached
-                                            1 million active of subscriptions.
-                                            6 months more, we reached 1.8 million of active subscriptions.
-                                            I worked with an intercity team, developed and tested the code, mentored new
-                                            developers,
-                                            and sometimes my duties included deploying and monitoring using Jenkins,
-                                            Kibana, DataGrip</p>
-                                    </div>
-                                </div>
-                                <div class="item mb-3">
-                                    <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"></h4>
-                                    <div class="item-content text-muted text-left">
-                                        <p>02.2019 - 02.2020</p>
-                                    </div>
-                                    <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"></h4>
-                                    <div class="item-content">
-                                        <p>Studying JAVA via "JavaOPS". Learning Java Core, frameworks, SQL, etc.
-                                            The process of studying had been checked by a senior java engineer with
-                                            everyday feedback.
-                                            Graduating exam was passed with distinction.</p>
-                                        <p><a class="theme-link"
-                                              href="https://javaops.ru/certificate/basejava?lang=en&email=maxrybalkin91@gmail.com">Java
-                                            Core Certificate</a></p>
-                                        <p><a class="theme-link"
-                                              href="https://javaops.ru/certificate/topjava?lang=en&email=maxrybalkin91@gmail.com">Java
-                                            Enterprise Certificate</a></p>
-                                    </div>
-                                </div>
-                                <div class="item mb-3">
-                                    <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"></h4>
-                                    <div class="item-content text-muted text-left">
-                                        <p>06.2013 - 02.2020</p>
-                                    </div>
-                                    <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"></h4>
-                                    <div class="item-content">
-                                        <p>Working for different companies as a building engineer</p>
-                                    </div>
-                                </div>
-                            </section><!--//project-section-->
-                        </section>
-                    </div><!--//resume-main-->
-                    <aside class="resume-aside col-12 col-lg-4 col-xl-4 px-lg-4 pb-lg-4">
-                        <section class="skills-section py-3">
-                            <h3 class="text-uppercase resume-section-heading mb-4">Skills</h3>
-                            <div class="item">
-                                <ul class="list-unstyled resume-skills-list">
-                                    <li class="mb-2">Languages: Java (8, 11), Kotlin, Groovy</li>
-                                    <li class="mb-2">Frameworks: Spring Boot/MVC/Security/Cloud
-                                    </li>
-                                    <li class="mb-2">ORM: Spring JDBC, Spring Data Jpa, Hibernate, MyBatis, Jooq
-                                    </li>
-                                    <li class="mb-2">Relational databases: MySQL, PostgreSQL</li>
-                                    <li class="mb-2">Testing: JUnit, Spock, Concordian, TestContainers</li>
-                                    <li class="mb-2">Building tools: Maven, Gradle</li>
-                                    <li class="mb-2">Deployment: Docker, Kubernetes, Tomcat, Jenkins</li>
-                                    <li class="mb-2">Streaming: Apache Kafka, Rabbit MQ</li>
-                                    <li class="mb-2">Logging: Slf4j, Kibana, Sage</li>
-                                    <li class="mb-2">Instruments: IntelliJ IDEA, SoapUI, Postman, DataGrip, Git, Jira,
-                                        Grafana
-                                    </li>
-                                </ul>
-                            </div>
-                        </section><!--//skills-section-->
-                        <section class="education-section py-3">
-                            <h3 class="text-uppercase resume-section-heading mb-4">Education</h3>
-                            <ul class="list-unstyled resume-education-list">
-                                <li class="mb-3">
-                                    <div class="resume-degree font-weight-bold">Enterprise Java Developer</div>
-                                    <div class="resume-degree-org text-muted">Moscow Institute of Retraining and
-                                        Advanced Training "Viacademia"
-                                    </div>
-                                    <div class="resume-degree-time text-muted">09.2019 - 05.2020</div>
-                                </li>
-                                <li class="mb-3">
-                                    <div class="resume-degree font-weight-bold">Industrial and Civil Buildings
-                                        Engineer(specialist)
-                                    </div>
-                                    <div class="resume-degree-org text-muted">Lugansk National Agrarian University
-                                    </div>
-                                    <div class="resume-degree-time text-muted">09.2008 - 06.2013</div>
-                                </li>
-                            </ul>
-                        </section><!--//education-section-->
+    <div class="section section-work">
+        <h2 class="title">Work experience</h2>
+        <div class="set">
+            <div class="item">
+                <h3><span class="company l">&quot;Right Line&quot;</span>
+                    <span class="date r">Feb 2020 &mdash; Present</span>
+                </h3>
+                <div class="clear"></div>
+                <span class="job_title">Java Software Engineer</span>
+                <div class="info"><p><span><span><span style="font-weight:bold;">Developing JAVA REST microsevice backend apps for the "Tinkoff" bank as an outstaff employee.</span><br/>"Tinkoff" is the biggest online bank in Europe, with more than 25000 employees.<br/>In 2020 the company earned 160 million $. It has offices of development in 19 cities of Russia.<br/>The projects I worked with:<br/></span></span>
+                </p>
+                    <ul>
+                        <li><span>'APPS-IN-APPS' - backend part for buying items, booking living places, comparing restaurants, etc., using the mobile app of the 'Tinkoff' bank. The project still has been helping people to do different things using the </span><span>app where they usually had been process only different financial operations. I worked with an</span><span>international team (Russia, Belarus, Ukraine, Uzbekistan), developed and tested the code.<br/></span>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><span>'SUBSCRIPTIONS' - backend part for subscribing to different online services (video/music streaming, insurance, car servicing, increased deposit percent, etc.), using the mobile app of the bank. I've started working with the project from the very beginning. </span><span>After 1 year since the app was published, the project embraced 1 million clients. </span><span>Six months more, the project embraced 1.8 million clients and became the most popular bank subscription service in Russia. I've been working with an intercity team, developing and testing the code, mentoring new developers, reviewing code of other developers, fixing bugs, optimizing the project and connected systems, deploying and monitoring the production.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="section section-qualifications">
+        <h2 class="title">Qualifications</h2>
+        <div class="set">
+            <div class="item">
+                <span class="info">Java(Core, Collections, Concurrency), Kotlin(basic level), Groovy(basic level), Spring Framework (Boot, MVC, Cloud, Security, JDBC), ORM frameworks(Hibernate, Jooq, MyBatis), Streaming(Kafka, Rabbit), Testing(JUnit, Spock, Concordian), Logging(Log4J, Kibana), Building/Deployment(Maven, Gradle, Jenkins), RESTful, SOAP, HTTP, JSON, XML, HTML.<br/>I've been using IntelliJ IDEA, Postman, SoapUI, DataGrip for my work.</span>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="section section-education">
+        <h2 class="title">Education</h2>
+        <div class="set">
+            <div class="item">
+                <h3><span class="course l">TopJava</span>
+                    <span class="date r">Feb 2019 &mdash; Feb 2020</span>
+                </h3>
+                <div class="clear"></div>
+                <span class="school">Java Online Projects</span>
+                <div class="info">
+                    <span><span>I had been combing both my job as a building engineer and learning Java.<br/>The courses included hometasks with a personal mentor. I'd been learning all the process of development - patterns, <span><span><span>algorithms, Java Core, frameworks, SQL, logging, etc. I passed final exam with distinction</span></span></span></span></span>.
+                </div>
+                <span class="clear"> </span>
+            </div>
 
-                        <section class="skills-section py-3">
-                            <h3 class="text-uppercase resume-section-heading mb-4">Languages</h3>
-                            <ul class="list-unstyled resume-lang-list">
-                                <li class="mb-2">English <span class="text-muted">(Intermediate)</span></li>
-                                <li class="mb-2">Russian <span class="text-muted">(Native speaker)</span></li>
-                                <li class="mb-2">Ukrainian <span class="text-muted">(Native speaker)</span></li>
-                            </ul>
-                        </section><!--//certificates-section-->
+            <div class="item">
+                <h3><span class="course l">Civil and Industrial Building Engineering</span>
+                    <span class="date r">Sep 2008 &mdash; Jun 2013</span>
+                </h3>
+                <div class="clear"></div>
+                <span class="school">Lugansk National Agrarian Univercity</span>
+                <div class="info">I studied civil and industrial building engineering and got a <span><span><span>specialist level.</span></span></span>
+                </div>
+                <span class="clear"> </span>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="section section-interests">
+        <h2 class="title">Interests</h2>
+        <div class="set">
+            <div class="item">
+                <span class="info">In my free time I do different sports, play drums and learn foreign languages.</span>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="section section-interests">
+        <h2 class="title">Certificates</h2>
+        <h3><span class="course l"><a target="_blank" rel="noopener noreferrer"
+                                      href="https://javaops.ru/certificate/basejava?lang=en&email=maxrybalkin91@gmail.com">Java Basic</a></span>
+        </h3></br>
+        <p></p>
+        <h3><span class="course l"><a target="_blank" rel="noopener noreferrer"
+                                      href="https://javaops.ru/certificate/topjava?lang=en&email=maxrybalkin91@gmail.com">Java Enterprise</a></span>
+        </h3></br>
+        <div class="clear"></div>
+    </div>
 
-                    </aside><!--//resume-aside-->
-                </div><!--//row-->
-            </div><!--//resume-body-->
-            <hr>
+</div>
 
-        </article>
-
-    </div><!--//container-->
-
-</div><!--//main-wrapper-->
-
-
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 </body>
 </html>
