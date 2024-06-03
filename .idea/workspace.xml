@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50fc64d9-565a-4f59-bc02-c2a98d314b2f" name="Default Changelist" comment="Updates">
+      <change afterPath="$PROJECT_DIR$/pdf/Maksym_Rybalkin.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,18 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MaxRybalkin91"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MaxRybalkin91&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/MaxRybalkin91/MaxRybalkin91.github.io.git",
-    "accountId": "7c2f67ec-f84d-4d3e-9211-5e5bddd4f59c"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MaxRybalkin91/MaxRybalkin91.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;7c2f67ec-f84d-4d3e-9211-5e5bddd4f59c&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -43,7 +45,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="1VyyEZTZQi47XP8lwtVENWCnZcR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,6 +59,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/maksimrybalkin/IdeaProjects/MaxRybalkin91.github.io/pdf",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -108,7 +113,9 @@
       <workItem from="1666700557420" duration="321000" />
       <workItem from="1670750760998" duration="545000" />
       <workItem from="1701706036725" duration="887000" />
-      <workItem from="1716575193025" duration="729000" />
+      <workItem from="1716575193025" duration="2124000" />
+      <workItem from="1717312922990" duration="4086000" />
+      <workItem from="1717388836275" duration="368000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1578246724584</created>
@@ -357,7 +364,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716575844123</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Updates">
+      <option name="closed" value="true" />
+      <created>1716576047793</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1716576047793</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Updates">
+      <option name="closed" value="true" />
+      <created>1716576109923</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1716576109923</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
