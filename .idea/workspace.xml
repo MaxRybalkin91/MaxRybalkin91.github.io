@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50fc64d9-565a-4f59-bc02-c2a98d314b2f" name="Default Changelist" comment="Updates">
-      <change afterPath="$PROJECT_DIR$/doc/MAKSYM_RYBALKIN.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf/MAKSYM_RYBALKIN.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf/Maksym_Rybalkin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/MAKSYM_RYBALKIN.docx" beforeDir="false" afterPath="$PROJECT_DIR$/doc/MAKSYM_RYBALKIN.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdf/MAKSYM_RYBALKIN.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pdf/MAKSYM_RYBALKIN.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +62,7 @@
     "com.codeium.enabled": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/maksimrybalkin/IdeaProjects/MaxRybalkin91.github.io/doc",
+    "last_opened_file_path": "/Users/maksimrybalkin/IdeaProjects/MaxRybalkin91.github.io/pdf",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -92,8 +90,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
-        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
       </set>
     </attachedChunks>
   </component>
@@ -136,6 +134,8 @@
       <workItem from="1726071954619" duration="1098000" />
       <workItem from="1738737445573" duration="2697000" />
       <workItem from="1746183461015" duration="900000" />
+      <workItem from="1748505514443" duration="87000" />
+      <workItem from="1748505612793" duration="623000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1578246724584</created>
