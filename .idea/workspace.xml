@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50fc64d9-565a-4f59-bc02-c2a98d314b2f" name="Default Changelist" comment="Updates">
-      <change beforePath="$PROJECT_DIR$/doc/MAKSYM_RYBALKIN.docx" beforeDir="false" afterPath="$PROJECT_DIR$/doc/MAKSYM_RYBALKIN.docx" afterDir="false" />
-    </list>
+    <list default="true" id="50fc64d9-565a-4f59-bc02-c2a98d314b2f" name="Default Changelist" comment="Updates" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,7 +131,7 @@
       <workItem from="1738737445573" duration="2697000" />
       <workItem from="1746183461015" duration="900000" />
       <workItem from="1748505514443" duration="87000" />
-      <workItem from="1748505612793" duration="1269000" />
+      <workItem from="1748505612793" duration="1295000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1578246724584</created>
@@ -454,7 +452,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748506925023</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Updates">
+      <option name="closed" value="true" />
+      <created>1748519164948</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1748519164948</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
